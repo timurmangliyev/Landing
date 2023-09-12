@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'TT Hoves';
+    color: #222;
+    line-height: 140%;
+
+
+
+}
+
+section {
+    padding: 0px 120px;
+}
+
+.logo {
+    width: 295px;
+    margin-top: 37px;
+}
+
+.coursedata {
+    margin-top: 85px;
+    margin-bottom: 76px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 160px;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.courseinfo .value {
+    
+    font-weight: 700;
+    
+}
+
+h1 {
+    font-family: 'Chava';
+    font-size: 80px;
+    line-height: 110%;
+    margin-bottom: 40px;
+}
+
+p {
+    font-size: 27px;
+    font-weight: 300;
+
+}
+
+.cta {
+    display:flex;
+    gap:20px 30px;
+    flex-wrap: wrap;
+}
+
+.primary {
+    flex-basis: 328px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    border-radius: 12px;
+    background: #6E3ABA;
+    color:  #fff;   
+    text-align: center;
+    width: 328px;
+    font-size: 18px;
+    font-weight: 500;  
+    padding: 20px 0px;  
+    gap: 10px;
+}
+
+.secondary {
+    flex-basis: 328px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    border: #6E3ABA 1px solid;
+    border-radius: 12px;
+    background:#fff;
+    color: #6E3ABA;   
+    text-align: center;
+    width: 328px;
+    font-size: 18px;
+    font-weight: 500;  
+    padding: 20px 0px;  
+    gap: 10px;
+}
+
+.header2{
+    width: 769px;
+    height: 136px;
+    left: 120px;
+    font-family: TT Hoves;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 68px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-right:391px ;
+    margin-bottom: 40px;
+}
+
+.Memoji {
+    width: 287px;
+}
