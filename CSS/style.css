@@ -7,15 +7,20 @@ body {
     font-family: 'TT Hoves';
     color: #222;
     line-height: 140%;
-
-
-
 }
 
 section {
-    padding: 0px 120px;
+    padding: 0px calc(10.6vw - 16px);
+    margin-bottom: calc(1.1vw + 19px);
+} 
+
+section:last-child {
+    margin-bottom: 0;
 }
 
+section.hello {
+
+}
 .logo {
     width: 295px;
     margin-top: 37px;
@@ -25,16 +30,19 @@ section {
     margin-top: 85px;
     margin-bottom: 76px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 30px 160px;
     font-size: 21px;
     font-weight: 400;
 }
 
 .courseinfo .value {
-    
     font-weight: 700;
-    
+}
+
+.courseinfo {
+   display: flex;
+   gap: 200px;
 }
 
 h1 {
@@ -87,20 +95,102 @@ p {
     gap: 10px;
 }
 
-.header2{
-    width: 769px;
-    height: 136px;
+h2 {
     left: 120px;
-    font-family: TT Hoves;
     font-size: 58px;
     font-weight: 500;
     line-height: 68px;
     letter-spacing: 0.01em;
-    text-align: left;
     margin-right:391px ;
     margin-bottom: 40px;
 }
 
 .Memoji {
-    width: 287px;
+    width: 192px;
+}
+
+.title2 {
+    font-size: 27px;
+    font-weight: 600;
+}
+.info2 {
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+.card{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.purple {
+    background: #6E3ABA;
+}
+
+h3 {
+    color:  #FFF;
+    font-family: 'TT Hoves';
+    font-size: calc(2vw + 27px);
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1.56px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.time {
+    display: flex;
+    justify-content: space-around;
+    margin: 57px;
+}
+.timeBlock {
+    color: #6E3ABA;
+}
+
+.timeBlock .number {
+    font-family: 'Chava';
+    font-size: 174px;
+    line-height: 107.5%;
+}
+
+.timeBlock .date {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.center {
+margin: 0 auto;
+}
+
+section.purple {
+    padding-top: calc(4.4vw + 23px)
+    padding-bottom: calc
+}
+
+h2 {
+    text-align:center;
+    font-size: 58px;
+    font-weight: 500;
+    letter-spacing: 0.58px;
+    text-transform: uppercase;
+    width: 1022px;
+}
+
+.lesson{
+    padding: 24px;
+    border-bottom: 1px solid #222;
+    font-size: 21px;
+}
+
+.lessonsection {
+ border-radius: 1px solid #222;
 }
